@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5520b985ba427f498a8fefc032339d1, type: 3}
   m_Name: TestSO
   m_EditorClassIdentifier: 
+  musicBox: {fileID: 2724799446453879963, guid: c579a2e59552fec4da65274bc0ab66d2, type: 3}
   dataList:
   - doEventBtnKey: 1101000012010000
     musicDataKey: test1

@@ -52,7 +52,7 @@ public class MusicDataManager : MonoSingleton<MusicDataManager>
     {
         ChangeCurrentMusicBoxDataSO(currentMusicBoxDataSO);
 
-        StartMusicBoxDataCheck = true;
+        StartCurMusic();
     }
 
     private void Update()
