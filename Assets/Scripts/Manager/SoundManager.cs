@@ -9,7 +9,21 @@ public class SoundManager : MonoSingleton<SoundManager>
     private MusicBox curMusic = null;
     public MusicBox CurMusic
     {
-        get { return curMusic; }
+        get 
+        { 
+            if(curMusic == null)
+            {
+                curMusic = FindObjectOfType<MusicBox>();
+
+                if (curMusic == null)
+                {
+                    GameObject temp = new GameObject("CurMusicBox");
+                    curMusic = temp.AddComponent<MusicBox>();
+                }
+            }
+
+            return curMusic;
+        }
     }
 
     private float curMusicLength = 0f;
@@ -27,7 +41,7 @@ public class SoundManager : MonoSingleton<SoundManager>
             return;
         }
 
-        curMusic.audioSource.clip = newMusic.clip;
+        CurMusic.AudioSource.clip = newMusic.clip;
         curMusicLength = newMusic.clip.length;
     }
     public void ChangeCurMusic(AudioClip newMusic)
@@ -39,16 +53,16 @@ public class SoundManager : MonoSingleton<SoundManager>
             return;
         }
 
-        curMusic.audioSource.clip = newMusic;
+        CurMusic.AudioSource.clip = newMusic;
         curMusicLength = newMusic.length;
     }
 
     public void PlayCurMusic()
     {
-        curMusic.PlaySound();
+        CurMusic.PlaySound();
     }
     public void StopCurMusic()
     {
-        curMusic.StopSound();
+        CurMusic.StopSound();
     }
 }

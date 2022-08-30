@@ -17,26 +17,13 @@ MonoBehaviour:
   - doEventBtnKey: 1101000012010000
     musicDataKey: test1
     eventName: 
-    startDoEventTime: 0
+    referenceTime: 50
     badTime:
-      minTime: 0
-      maxTime: 100
+      minTime: 50
+      maxTime: 50
     greatTime:
-      minTime: 10
-      maxTime: 90
+      minTime: 40
+      maxTime: 40
     perfectTime:
-      minTime: 20
-      maxTime: 80
-  - doEventBtnKey: 
-    musicDataKey: test2
-    eventName: 
-    startDoEventTime: 100
-    badTime:
-      minTime: 0
-      maxTime: 0
-    greatTime:
-      minTime: 0
-      maxTime: 0
-    perfectTime:
-      minTime: 0
-      maxTime: 0
+      minTime: 30
+      maxTime: 30

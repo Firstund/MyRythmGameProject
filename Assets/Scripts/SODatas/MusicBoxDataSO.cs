@@ -6,8 +6,8 @@ using UnityEngine;
 [Serializable]
 public struct DoEventTime
 {
-    public float minTime;
-    public float maxTime;
+    public double minTime;
+    public double maxTime;
 }
 
 [Serializable]
@@ -18,10 +18,10 @@ public class MusicData
 
     public string eventName;
 
-    public float startDoEventTime; // 이 값이 n일 때 음악 플레이 타임이 n일 경우 밑의 bed great perfect판정 시작
+    public double referenceTime; // 이 값은 체크의 기준이 된다. min값은 이 값에서 - 연산을 하여 체크하고, max값은 이 값에서 + 연산을 하여 체크한다.
 
     public DoEventTime badTime; // startDoEventTime에 대한 상대적 Time값 badTime의 max타임이 가장 마지막으로 지날 것 이기에, badTime의 maxTime이 지나면 Miss판정을 한다.
-                                // badTime의 minTime은 0으로 고정된다.
+    // referenceTime에서 badTime의 min값을 빼면 checkStartTime이 된다.
     public DoEventTime greatTime;
     public DoEventTime perfectTime;
 }

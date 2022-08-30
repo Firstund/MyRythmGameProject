@@ -18,10 +18,11 @@ public class MusicDataHelper : EditorWindow
     private bool playSound = false;
     private bool playButtonDown = false;
     private bool resetButtonDown = false;
+    private bool checkPauseTimer = false;
 
     private double startSoundTime = 0d;
-    private double pauseSoundTime = 0d;
     private float prevPlayTimer = 0f;
+    private double pauseSoundTime = 0d;
     private double soundPlayTimer = 0d;
     private double pauseSoundTimer = 0d;
     private float soundLength = 0f;
@@ -42,7 +43,7 @@ public class MusicDataHelper : EditorWindow
     {
         GUILayout.Label("MusicDataHelper", EditorStyles.boldLabel);
 
-        musicBoxDataSO = EditorGUILayout.ObjectField("Current Texts Script", musicBoxDataSO, typeof(MusicBoxDataSO), true) as MusicBoxDataSO;
+        musicBoxDataSO = EditorGUILayout.ObjectField("Current MusicDataSO", musicBoxDataSO, typeof(MusicBoxDataSO), true) as MusicBoxDataSO;
 
         if (prevMusicBoxDataSO != musicBoxDataSO)
         {
@@ -52,14 +53,20 @@ public class MusicDataHelper : EditorWindow
             playButtonDown = false;
 
             prevMusicBoxDataSO = musicBoxDataSO;
-            soundLength = musicBoxDataSO.musicBox.audioSource.clip.length;
+            soundLength = musicBoxDataSO.musicBox.AudioSource.clip.length;
             soundPlayTimer = 0f;
         }
 
         ButtonDownCheck();
         ButtonDownWork();
     }
+    private void OnLostFocus()
+    {
+        playSound = false;
+        pauseSoundTime = EditorApplication.timeSinceStartup;
 
+        EditorSFX.StopAllClips();
+    }
     private void ButtonDownCheck()
     {
         if (musicBoxDataSO != null)
@@ -90,10 +97,10 @@ public class MusicDataHelper : EditorWindow
 
     private void CheckTimer()
     {
+        double upTimer = (EditorApplication.timeSinceStartup - startSoundTime) - soundPlayTimer;
+
         if (playSound)
         {
-            double upTimer = (EditorApplication.timeSinceStartup - startSoundTime) - soundPlayTimer;
-
             if (prevPlayTimer == (float)soundPlayTimer)
             {
                 if (upTimer > 0d)
@@ -103,16 +110,22 @@ public class MusicDataHelper : EditorWindow
             }
             else
             {
-                EditorSFX.PlayClip(musicBoxDataSO.musicBox.audioSource.clip, 0, false, soundPlayTimer);
+                EditorSFX.PlayClip(musicBoxDataSO.musicBox.AudioSource.clip, 0, false, soundPlayTimer);
 
                 startSoundTime += upTimer;
             }
         }
         else
         {
-            if (soundPlayed)
+            if (soundPlayed && checkPauseTimer)
             {
                 pauseSoundTimer = EditorApplication.timeSinceStartup - pauseSoundTime;
+            }
+
+            if (prevPlayTimer != (float)soundPlayTimer)
+            {
+                checkPauseTimer = false;
+                startSoundTime = EditorApplication.timeSinceStartup - soundPlayTimer;
             }
         }
     }
@@ -124,6 +137,7 @@ public class MusicDataHelper : EditorWindow
             if (playSound)
             {
                 playSound = false;
+                checkPauseTimer = true;
                 pauseSoundTime = EditorApplication.timeSinceStartup;
 
                 EditorSFX.StopAllClips();
@@ -144,7 +158,7 @@ public class MusicDataHelper : EditorWindow
 
                 pauseSoundTimer = 0d;
 
-                EditorSFX.PlayClip(musicBoxDataSO.musicBox.audioSource.clip, 0, false, soundPlayTimer);
+                EditorSFX.PlayClip(musicBoxDataSO.musicBox.AudioSource.clip, 0, false, soundPlayTimer);
             }
         }
 
@@ -155,14 +169,7 @@ public class MusicDataHelper : EditorWindow
             soundPlayTimer = 0d;
             startSoundTime = EditorApplication.timeSinceStartup;
 
-            EditorSFX.PlayClip(musicBoxDataSO.musicBox.audioSource.clip, 0, false, 0d);
+            EditorSFX.PlayClip(musicBoxDataSO.musicBox.AudioSource.clip, 0, false, 0d);
         }
-    }
-
-    private void OnDestroy()
-    {
-        playSound = false;
-
-        EditorSFX.StopAllClips();
     }
 }

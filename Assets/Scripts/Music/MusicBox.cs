@@ -4,7 +4,20 @@ using UnityEngine;
 
 public class MusicBox : MonoBehaviour
 {
-    public AudioSource audioSource = null;
+    private AudioSource audioSource = null;
+    public AudioSource AudioSource
+    {
+        get 
+        {
+
+            if (audioSource == null)
+            {
+                audioSource = GetComponent<AudioSource>();
+            }
+
+            return audioSource; 
+        }
+    }
     public float clipLength = 0f;
 
     private void Awake()

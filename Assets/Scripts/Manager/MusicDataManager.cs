@@ -7,7 +7,7 @@ public class MusicDataManager : MonoSingleton<MusicDataManager>
     [SerializeField]
     private MusicBoxDataSO currentMusicBoxDataSO = null;
 
-    public Dictionary<float, string> timeToEventIdDict = new Dictionary<float, string>();
+    public Dictionary<double, string> timeToEventIdDict = new Dictionary<double, string>();
     public Dictionary<string, MusicData> stringToMusicDataDict = new Dictionary<string, MusicData>();
 
     public List<MusicData> checkingDataList = new List<MusicData> ();
@@ -44,7 +44,7 @@ public class MusicDataManager : MonoSingleton<MusicDataManager>
 
         foreach (var item in musicBoxDataSO.dataList)
         {
-            timeToEventIdDict.Add(item.startDoEventTime, item.musicDataKey);
+            timeToEventIdDict.Add(item.referenceTime - item.badTime.minTime, item.musicDataKey);
             stringToMusicDataDict.Add(item.musicDataKey, item);
         }
     }
@@ -92,7 +92,7 @@ public class MusicDataManager : MonoSingleton<MusicDataManager>
                     return;
                 }
 
-                if (checkTimer < musicDataForCheck.startDoEventTime)
+                if (checkTimer < musicDataForCheck.referenceTime - musicDataForCheck.badTime.minTime)
                 {
                     // Miss판정
 
@@ -111,44 +111,25 @@ public class MusicDataManager : MonoSingleton<MusicDataManager>
 
                 if (keyInput)
                 {
-                    float timeForCheck = checkTimer - musicDataForCheck.startDoEventTime;
+                    double timeForCheck = checkTimer - (musicDataForCheck.referenceTime - musicDataForCheck.badTime.minTime);
 
-                    if (timeForCheck >= musicDataForCheck.badTime.minTime)
+                    if (timeForCheck >= musicDataForCheck.referenceTime - musicDataForCheck.perfectTime.minTime && timeForCheck <= musicDataForCheck.referenceTime + musicDataForCheck.perfectTime.maxTime)
                     {
-                        if (timeForCheck >= musicDataForCheck.greatTime.minTime)
-                        {
-                            if (timeForCheck >= musicDataForCheck.perfectTime.minTime && timeForCheck <= musicDataForCheck.perfectTime.maxTime)
-                            {
-                                if (timeForCheck <= musicDataForCheck.greatTime.maxTime)
-                                {
-                                    if (timeForCheck <= musicDataForCheck.badTime.maxTime)
-                                    {
-                                        // bad 판정
-                                        Debug.Log("Bad");
-                                    }
-                                    else
-                                    {
-                                        // great 판정
-                                        Debug.Log("Great");
-                                    }
-                                }
-                                else
-                                {
-                                    // perfect 판정
-                                    Debug.Log("Prefect");
-                                }
-                            }
-                            else
-                            {
-                                // great 판정
-                                Debug.Log("Great");
-                            }
-                        }
-                        else
-                        {
-                            // bad 판정
-                            Debug.Log("Bad");
-                        }
+                        // perfect 판정
+
+                        Debug.Log("Perfect");
+                    }
+                    else if (timeForCheck >= musicDataForCheck.referenceTime - musicDataForCheck.greatTime.minTime && timeForCheck <= musicDataForCheck.referenceTime + musicDataForCheck.greatTime.maxTime)
+                    {
+                        // great 판정
+
+                        Debug.Log("Great");
+                    }
+                    else if (timeForCheck >= musicDataForCheck.referenceTime - musicDataForCheck.badTime.minTime && timeForCheck <= musicDataForCheck.referenceTime + musicDataForCheck.badTime.maxTime)
+                    {
+                        // bad 판정
+
+                        Debug.Log("Bad");
                     }
 
                     checkingDataList.RemoveAt(i);
@@ -166,7 +147,7 @@ public class MusicDataManager : MonoSingleton<MusicDataManager>
 
     public void StartCurMusic()
     {
-        SoundManager.Instance.ChangeCurMusic(currentMusicBoxDataSO.musicBox.audioSource);
+        SoundManager.Instance.ChangeCurMusic(currentMusicBoxDataSO.musicBox.AudioSource);
         SoundManager.Instance.PlayCurMusic();
 
         StartMusicBoxDataCheck = true;
