@@ -5,8 +5,10 @@ using System.Reflection;
 
 public static class EditorSFX
 {
-    public static void PlayClip(AudioClip clip, int startSample = 0, bool loop = false)
+    public static void PlayClip(AudioClip clip, int startSample = 0, bool loop = false, double startTime = 0)
     {
+        StopAllClips();
+
         Assembly unityEditorAssembly = typeof(AudioImporter).Assembly;
 
         Type audioUtilClass = unityEditorAssembly.GetType("UnityEditor.AudioUtil");
@@ -18,11 +20,23 @@ public static class EditorSFX
             null
         );
 
+        MethodInfo method2 = audioUtilClass.GetMethod("SetPreviewClipSamplePosition",
+            BindingFlags.Static | BindingFlags.Public,
+            null,
+            new Type[] { typeof(AudioClip), typeof(int) },
+            null
+        );
+
         Debug.Log(method);
+
+        int sampleStart = (int)Math.Ceiling(clip.samples * (startTime / clip.length));//do your calculation
+
         method.Invoke(
             null,
             new object[] { clip, startSample, loop }
         );
+
+        method2.Invoke(null, new object[] { clip, sampleStart });
     }
 
     public static void StopAllClips()
