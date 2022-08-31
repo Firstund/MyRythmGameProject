@@ -9,7 +9,6 @@ public class MusicBox : MonoBehaviour
     {
         get 
         {
-
             if (audioSource == null)
             {
                 audioSource = GetComponent<AudioSource>();

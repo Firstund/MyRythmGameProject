@@ -1,48 +1,48 @@
-using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
-public class MusicDataHelper : EditorWindow
+public class SoundPlayerEditor : EditorWindow
 {
-    private readonly string editorSpritesPath = "Sprites/Editor/";
+    protected readonly string editorSpritesPath = "Sprites/Editor/";
 
     public MusicBoxDataSO musicBoxDataSO = null;
-    private MusicBoxDataSO prevMusicBoxDataSO = null;
+    protected MusicBoxDataSO prevMusicBoxDataSO = null;
 
     private Texture playTexture = null;
     private Texture pauseTexture = null;
     private Texture resetTexture = null;
 
-    private bool soundPlayed = false;
-    private bool playSound = false;
-    private bool playButtonDown = false;
-    private bool resetButtonDown = false;
-    private bool checkPauseTimer = false;
+    protected bool soundPlayed = false;
+    protected bool playSound = false;
+    protected bool playButtonDown = false;
+    protected bool resetButtonDown = false;
+    protected bool checkPauseTimer = false;
 
-    private double startSoundTime = 0d;
-    private float prevPlayTimer = 0f;
-    private double pauseSoundTime = 0d;
-    private double soundPlayTimer = 0d;
-    private double pauseSoundTimer = 0d;
-    private float soundLength = 0f;
+    protected double startSoundTime = 0d;
+    protected float prevPlayTimer = 0f;
+    protected double pauseSoundTime = 0d;
+    protected double soundPlayTimer = 0d;
+    protected double pauseSoundTimer = 0d;
+    protected float soundLength = 0f;
 
-    [MenuItem("Helper/MusicDataHelper")]
-    public static void ShowWindow()
-    {
-        GetWindow(typeof(MusicDataHelper));
-    }
-    private void OnEnable()
+    protected void OnEnable()
     {
         playTexture = Resources.Load(editorSpritesPath + "SYMB_PLAY") as Texture;
         pauseTexture = Resources.Load(editorSpritesPath + "SYMB_PAUSE") as Texture;
         resetTexture = Resources.Load(editorSpritesPath + "SYMB_REPLAY") as Texture;
     }
-
-    private void OnGUI()
+    protected void OnLostFocus()
     {
-        GUILayout.Label("MusicDataHelper", EditorStyles.boldLabel);
+        playSound = false;
+        pauseSoundTime = EditorApplication.timeSinceStartup;
 
+        EditorSFX.StopAllClips();
+    }
+
+    protected void ParentsOnGUI()
+    {
         musicBoxDataSO = EditorGUILayout.ObjectField("Current MusicDataSO", musicBoxDataSO, typeof(MusicBoxDataSO), true) as MusicBoxDataSO;
 
         if (prevMusicBoxDataSO != musicBoxDataSO)
@@ -57,17 +57,12 @@ public class MusicDataHelper : EditorWindow
             soundPlayTimer = 0f;
         }
 
-        ButtonDownCheck();
-        ButtonDownWork();
-    }
-    private void OnLostFocus()
-    {
-        playSound = false;
-        pauseSoundTime = EditorApplication.timeSinceStartup;
+        PlayButtonCheck();
+        PlayButtonDownWork();
 
-        EditorSFX.StopAllClips();
+        CheckTimer();
     }
-    private void ButtonDownCheck()
+    protected void PlayButtonCheck()
     {
         if (musicBoxDataSO != null)
         {
@@ -87,15 +82,12 @@ public class MusicDataHelper : EditorWindow
                 playButtonDown = GUILayout.Button(playTexture, GUILayout.Width(30), GUILayout.Height(30));
             }
 
-            CheckTimer();
-
             resetButtonDown = GUILayout.Button(resetTexture, GUILayout.Width(30), GUILayout.Height(30));
 
-            EditorGUILayout.BeginVertical();
+            EditorGUILayout.EndHorizontal();
         }
     }
-
-    private void CheckTimer()
+    protected void CheckTimer()
     {
         double upTimer = (EditorApplication.timeSinceStartup - startSoundTime) - soundPlayTimer;
 
@@ -129,8 +121,7 @@ public class MusicDataHelper : EditorWindow
             }
         }
     }
-
-    private void ButtonDownWork()
+    protected void PlayButtonDownWork()
     {
         if (playButtonDown)
         {
@@ -152,7 +143,7 @@ public class MusicDataHelper : EditorWindow
                     startSoundTime = EditorApplication.timeSinceStartup;
                 }
                 else
-                { 
+                {
                     startSoundTime += pauseSoundTimer;
                 }
 
