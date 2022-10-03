@@ -14,16 +14,3903 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicBox: {fileID: 2724799446453879963, guid: c579a2e59552fec4da65274bc0ab66d2, type: 3}
   dataList:
-  - doEventBtnKey: 1101000012010000
-    musicDataKey: test1
+  - doEventBtnKey: 
+    musicDataKey: 
     eventName: 
-    referenceTime: 50
+    referenceTime: 2.285438299999896
     badTime:
-      minTime: 50
-      maxTime: 50
+      minTime: 0
+      maxTime: 0
     greatTime:
-      minTime: 40
-      maxTime: 40
+      minTime: 0
+      maxTime: 0
     perfectTime:
-      minTime: 30
-      maxTime: 30
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 3.415693800000099
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 5.04983459999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 6.734569199999896
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 9.596268100000088
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 11.838876199999959
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 14.101360200000272
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 16.40399840000009
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 18.613870700000007
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 20.902525700000297
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 23.234013499999946
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 25.454561900000044
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 28.651837500000056
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 32.276257200000146
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 34.52939259999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 36.756818300000305
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 38.99021040000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 41.295574000000215
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 43.030029099999865
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 44.319423800000095
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 45.85282730000017
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 48.073920799999996
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 50.34918749999997
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 52.65898330000027
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 54.30950100000018
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 56.057712600000286
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 56.619091200000184
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 57.736948400000074
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 58.816046800000095
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 59.975526900000204
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 61.103849399999945
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 62.2264368000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 63.389399499999854
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 64.45263780000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 66.19803159999992
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 68.43532730000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 70.75295970000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 72.99164400000018
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 73.9986673000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 75.36299340000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 76.34858630000008
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 76.7575526999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 77.19897600000013
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 78.61831800000027
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 79.11264960000017
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 79.53419429999985
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 80.82393679999996
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 81.38132580000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 81.78341420000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 84.26809970000022
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 86.51646170000004
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 88.8607879000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 91.04998909999995
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 91.64275690000022
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 92.24172880000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 93.40920830000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 93.73845019999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 94.04644330000019
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 95.60362750000013
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 97.44846129999996
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 100.13264209999988
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 102.40640119999989
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 104.7006538999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 106.93658820000019
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 108.05153229999996
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 109.21144009999989
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 109.82680299999993
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 110.393685
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 110.99626940000007
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 111.59495990000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 112.15581520000023
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 113.74806020000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 114.35001220000004
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 115.21832810000024
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 115.49797179999996
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 116.6556684000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 117.76445469999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 119.41738179999993
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 120.53459310000017
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 121.15242960000023
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 122.01391270000022
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 122.29535140000007
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 123.40450030000011
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 124.4604233
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 126.12971310000012
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 126.68091700000014
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 127.04525650000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 127.38531360000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 127.911607
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 128.49418370000012
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 129.04786590000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 130.1514772999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 131.95759110000017
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 134.0994622000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 136.33925940000017
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 138.6505133999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 139.2121471999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 140.9166620000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 141.52357849999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 142.69824270000026
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 143.24500220000027
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 143.81032230000028
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 145.47152929999993
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 145.89878750000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 146.1969637000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 146.5441423000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 146.85876800000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 147.17440820000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 147.48527169999988
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 148.38759040000014
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 149.17010419999997
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 149.39075400000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 150.00836620000018
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 150.5831347000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 152.24664819999998
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 153.25454290000016
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 153.91486410000016
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 154.59358049999992
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 155.12698009999986
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 155.69615160000012
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 156.25458800000024
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 156.84875020000027
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 159.03588330000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 159.34837610000022
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 159.6746161000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 159.9791548000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 160.30741690000013
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 160.70796389999987
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 161.03994869999997
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 163.54775560000007
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 163.84770900000012
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 164.1432764000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 164.43217600000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 164.75714190000008
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 165.02076149999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 165.31703169999992
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 168.09505690000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 168.41725589999987
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 168.71489150000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 169.01752910000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 169.33131140000023
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 169.61243139999988
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 169.91537599999992
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 170.2034122
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 172.68843259999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 173.62360669999998
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 174.88118410000016
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 176.76910320000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 179.35308759999998
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 181.37473510000018
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 184.0050308
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 185.92903260000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 188.46534199999996
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 190.43425509999997
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 193.0822619999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 194.7233097000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 197.43931610000027
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 198.04456740000023
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 199.77258830000028
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 200.91810050000004
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 201.45150599999988
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 203.2569464000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 205.3454517
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 206.63087200000018
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 207.14652049999995
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 207.69408699999985
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 208.82894799999985
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 211.02281570000014
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 212.3531871
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 213.48388569999997
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 215.09948010000016
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 217.3950009
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 219.67156750000004
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 221.89547110000012
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 224.1516716000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 226.36372299999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 229.2371693
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 231.00423060000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 233.26058899999998
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 235.51088530000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 238.16800730000023
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 240.03304389999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 242.2500659000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 244.55621380000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 247.28663000000006
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 248.44273479999993
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 248.99166550000018
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 249.5461651999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 250.64762980000023
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 251.34726850000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 252.7529158000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 253.98718580000013
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 254.36087730000008
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 255.26820690000022
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 255.84300410000014
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 256.0853970000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 256.4036673999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 257.43042300000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 258.05934590000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 258.6286377000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 259.5968505999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 261.7402983000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 263.0493569
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 263.3938134
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 263.7193043000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 264.0699353
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 264.36043169999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 264.6616431000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 264.99231199999986
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 265.2586664999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 266.5523763000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 267.0636297000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 267.6859094000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 268.7616995000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 269.08165899999995
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 269.457535
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 270.08028030000014
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 270.9802304
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 271.58598370000027
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 271.9644174
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 272.2529534999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 273.3207090000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 273.92393459999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 274.18020849999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 274.50025240000014
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 275.5371124000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 276.13963360000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 276.7251735
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 277.5640778000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 278.13132080000014
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 278.64379689999987
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 278.95000819999996
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 279.91132930000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 280.45330809999996
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 280.81651550000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 281.16193650000014
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 281.49012459999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 281.8930759
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 282.27154789999986
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 282.6755296000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 283.0038233
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 283.33406460000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 283.65687879999996
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 285.8232244999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 286.38384050000013
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 286.93522740000026
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 287.4591918000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 288.0547299
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 288.6042169000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 288.8840199000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 289.1911205000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 289.67876620000015
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 290.06386840000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 290.3997152000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 291.87422879999986
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 292.1213137
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 292.7114425
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 293.09613820000004
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 293.7008272000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 294.1733382000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 294.3714657999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 294.8748243
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 295.4120535000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 296.0046597999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 296.55743970000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 297.12496379999993
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 297.7388378999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 298.3558054
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 298.87276999999995
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 299.4108776000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 299.9424990000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 300.5405869000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 301.12236770000027
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 301.64765990000024
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 302.2449709000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 302.7939848000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 303.2736018999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 303.90426849999994
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 304.4282151000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 305.0152170000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 305.54064849999986
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 306.1143225999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 306.73248300000023
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 307.2899153000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 307.8701387000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 308.43379349999987
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 309.0086566
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 309.57688559999997
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 310.1197986000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 310.67639210000016
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 310.96980710000025
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 311.29116490000024
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 311.60359100000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 313.0391930999999
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 315.22121560000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 317.4254409
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 319.83496620000005
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 322.0646248000003
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 324.3973479000001
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0
+  - doEventBtnKey: 
+    musicDataKey: 
+    eventName: 
+    referenceTime: 326.6909426000002
+    badTime:
+      minTime: 0
+      maxTime: 0
+    greatTime:
+      minTime: 0
+      maxTime: 0
+    perfectTime:
+      minTime: 0
+      maxTime: 0

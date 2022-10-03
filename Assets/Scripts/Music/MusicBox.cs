@@ -17,14 +17,15 @@ public class MusicBox : MonoBehaviour
             return audioSource; 
         }
     }
-    public float clipLength = 0f;
+    public float clipLength
+    {
+        get { return audioSource.clip.length; }
+    }
 
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.playOnAwake = false;
-
-        clipLength = audioSource.clip.length;
     }
 
     public void PlaySound()

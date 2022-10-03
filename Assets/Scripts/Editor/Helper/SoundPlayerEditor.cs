@@ -41,7 +41,7 @@ public class SoundPlayerEditor : EditorWindow
         EditorSFX.StopAllClips();
     }
 
-    protected void ParentsOnGUI()
+    protected virtual void OnGUI()
     {
         musicBoxDataSO = EditorGUILayout.ObjectField("Current MusicDataSO", musicBoxDataSO, typeof(MusicBoxDataSO), true) as MusicBoxDataSO;
 

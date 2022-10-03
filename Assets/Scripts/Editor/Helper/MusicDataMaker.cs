@@ -15,11 +15,11 @@ public class MusicDataMaker : SoundPlayerEditor
         GetWindow(typeof(MusicDataMaker));
     }
 
-    private void OnGUI()
+    protected override void OnGUI()
     {
         GUILayout.Label("MusicDataMaker", EditorStyles.boldLabel);
 
-        ParentsOnGUI();
+        base.OnGUI();
 
         ButtonDownCheck();
         ButtonDownWork();
