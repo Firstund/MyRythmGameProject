@@ -8,7 +8,7 @@ public class MusicDataModificationTool : SoundPlayerEditor
     private Vector2 scollPosition = Vector2.zero;
     private Vector2 timeLineScrollPosition = Vector2.zero;
 
-    private readonly float pixelFocus = 200f;
+    private readonly float pixelFocus = 150f;
     private float maxPixel = 0f; // 10pixel 당 0.01초를 나타낸다
     private float drawedPixels = 0f;
 
@@ -42,17 +42,28 @@ public class MusicDataModificationTool : SoundPlayerEditor
         MusicData curData = null;
         double prevNodeTime = 0d;
         float height = 0f;
+        float spaceValue = 0f;
 
         DrawTimeLine(musicBoxDataSO.musicBox.clipLength);
 
         for (int i = 0; i < musicBoxDataSO.dataList.Count; i++)
         {
             curData = musicBoxDataSO.dataList[i];
-            height = (float)((curData.badTime.minTime + curData.badTime.maxTime) * pixelFocus) > 0 ? (float)((curData.badTime.maxTime - curData.badTime.minTime) * pixelFocus) : 15f;
+
+            if (i > 0)
+            {
+                spaceValue = (float)(curData.referenceTime - musicBoxDataSO.dataList[i - 1].referenceTime);
+            }
+            else
+            {
+                spaceValue = (float)curData.referenceTime;
+            }
+
+            height = (float)((curData.badTime.maxTime - curData.badTime.minTime) * pixelFocus) > 0 ? (float)((curData.badTime.maxTime - curData.badTime.minTime) * pixelFocus) : 15f;
 
             GUILayout.BeginVertical();
 
-            GUILayout.Space((float)curData.badTime.minTime * pixelFocus);
+            GUILayout.Space(spaceValue * pixelFocus);
 
             GUILayout.EndVertical();
 
@@ -60,7 +71,11 @@ public class MusicDataModificationTool : SoundPlayerEditor
 
             GUILayout.Space(51f);
 
-            GUILayout.Button("Node", GUILayout.Width(50), GUILayout.Height(height));
+            GUIStyle style = new GUIStyle(GUI.skin.button);
+
+            style.normal.textColor = curData.badTime.maxTime - curData.badTime.minTime > 0 ? Color.white : Color.red;
+
+            GUILayout.Button("Node", style, GUILayout.Width(50), GUILayout.Height(height));
 
             GUILayout.EndHorizontal();
 
@@ -71,7 +86,7 @@ public class MusicDataModificationTool : SoundPlayerEditor
     private void DrawTimeLine(float time)
     {
         // 최적화작업하자
-        Rect rect = new Rect(10, 10, 80, Screen.height + scollPosition.y);
+        Rect rect = new Rect(10, 15, 80, Screen.height + scollPosition.y);
 
         GUILayout.BeginVertical();
         GUILayout.BeginArea(rect);
@@ -84,7 +99,7 @@ public class MusicDataModificationTool : SoundPlayerEditor
         int Z = 0;
         int ZDZNum = 0;
 
-        GUILayout.Label("0", GUILayout.Width(rect.width), GUILayout.Height(15));
+        GUILayout.Label("0----", GUILayout.Width(rect.width), GUILayout.Height(15));
 
         for (float i = 0f; i < time; i += 0.1f)
         {
