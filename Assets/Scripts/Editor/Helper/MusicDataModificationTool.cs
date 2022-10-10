@@ -8,7 +8,7 @@ public class MusicDataModificationTool : SoundPlayerEditor
     private Vector2 scollPosition = Vector2.zero;
     private Vector2 timeLineScrollPosition = Vector2.zero;
 
-    private readonly float pixelFocus = 150f;
+    private readonly float pixelFocus = 180f;
     private float maxPixel = 0f; // 10pixel 당 0.01초를 나타낸다
     private float drawedPixels = 0f;
 
@@ -86,7 +86,7 @@ public class MusicDataModificationTool : SoundPlayerEditor
     private void DrawTimeLine(float time)
     {
         // 최적화작업하자
-        Rect rect = new Rect(10, 15, 80, Screen.height + scollPosition.y);
+        Rect rect = new Rect(10, 15 + scollPosition.y, 80, Screen.height);
 
         GUILayout.BeginVertical();
         GUILayout.BeginArea(rect);
