@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using System.Reflection;
 
 public class MusicDataModificationTool : SoundPlayerEditor
 {
@@ -75,7 +76,11 @@ public class MusicDataModificationTool : SoundPlayerEditor
 
             style.normal.textColor = curData.badTime.maxTime - curData.badTime.minTime > 0 ? Color.white : Color.red;
 
-            GUILayout.Button("Node", style, GUILayout.Width(50), GUILayout.Height(height));
+            if(GUILayout.Button("Node", style, GUILayout.Width(50), GUILayout.Height(height)))
+            {
+                System.Type type = GetWindow(typeof(NodeDataModificationTool)).GetType();
+                type.GetMethod("SetMusicData", BindingFlags.Static | BindingFlags.Public | BindingFlags.InvokeMethod).Invoke(type, new object[] { musicBoxDataSO.dataList[i] });
+            }
 
             GUILayout.EndHorizontal();
 
